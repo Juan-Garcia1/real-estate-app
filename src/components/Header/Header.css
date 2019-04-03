@@ -1,0 +1,21 @@
+.header {
+  height: 40vh;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.6)), url("https://images.pexels.com/photos/1642125/pexels-photo-1642125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center / cover;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.header > .container {
+  width:90%;
+  margin: auto;
+}
+
+.header__title, .header__sub-title {
+  color: #fff;
+  text-align: center;
+}
+
+.header__title {
+  margin-top: 0;
+}
